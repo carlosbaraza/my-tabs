@@ -1,0 +1,37 @@
+{
+  "name": "seed-element",
+  "authors": [
+    "Anonymous <anonymous@example.com>"
+  ],
+  "description": "Element providing solution to no problem in particular.",
+  "keywords": [
+    "web-component",
+    "web-components",
+    "polymer",
+    "seed"
+  ],
+  "main": "seed-element.html",
+  "license": "MIT",
+  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "ignore": [
+    "/.*",
+    "/tests/"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^0.5.1",
+    "core-selector": "Polymer/core-selector#~0.5.1"
+  },
+  "devDependencies": {
+    "web-component-tester": "Polymer/web-component-tester#^2.0.0-rc1"
+  },
+  "_release": "2e0232a2bd",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "2e0232a2bde1811d6ecf7e6ba366af91bbf1aeab"
+  },
+  "_source": "git://github.com/xel51/my-tabs.git",
+  "_target": "master",
+  "_originalSource": "xel51/my-tabs",
+  "_direct": true
+}
