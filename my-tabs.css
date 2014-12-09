@@ -10,11 +10,24 @@
 
 :host {
   display: block;
+  font-family: 'Roboto', 'Arial', sans-serif;
 }
 
 /* To ensure your styling works under the Shadow DOM polyfill, see
    www.polymer-project.org/docs/polymer/styling.html#directives */
-polyfill-next-selector { content: ':host > h2'; }
-::content h2 {
-  color: blue;
+polyfill-next-selector { content: ':host > *'; }
+::content > * {
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  padding: 0 8px;
+  font-size: 14px;
+  color: #999;
+}
+
+polyfill-next-selector { content: ':host > .core-selected'; }
+::content > .core-selected {
+  background: #5599FF;
+  color: white;
 }
